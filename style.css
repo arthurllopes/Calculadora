@@ -13,14 +13,12 @@
     width: 234px;
     height: 50px;
     text-align: right;
-
     font-size: 20px;
     color: rgb(14, 13, 13);
     margin: 5px;
     border-radius: 8px;
     background-color: rgb(238, 234, 234);
 }
-
 .operator, .number {
     border: hidden;
     width: 52px;
@@ -28,8 +26,7 @@
     font-size: 22px;
     color: white;
     border-radius: 8px;
-    background-color: rgb(136, 85, 85);
-    
+    background-color: rgb(136, 85, 85);  
 }
 table{
     padding: 5px;
@@ -40,5 +37,31 @@ table{
 
 }
 .operator:hover{
+    border-style: outset;
+}
+#equal{
+    border: hidden;
+    width: 52px;
+    height: 50px;
+    font-size: 22px;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(136, 85, 85);
+}
+
+#equal:hover{
+    border-style: outset;
+}
+
+#delete{
+    border: hidden;
+    width: 52px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(136, 85, 85);    
+}
+#delete:hover{
     border-style: outset;
 }
